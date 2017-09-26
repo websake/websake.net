@@ -1,0 +1,318 @@
+ /*
+ * DarkTurquoise
+ *
+ * A stylish html-css theme
+ *
+ *
+ * @package    DarkTurquoise
+ * @author     Silvia Valbonetti <silvia.valbonetti@gmail.com>
+ * @copyright  2015 WebSake
+ * @license    http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @version    Release: 1.0.1
+ * @agency		 WebSake
+ * @link       https://websake.net
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Calligraffitti);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+
+
+body {
+	font-family: Georgia, serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+/*nav bar*/
+nav {
+	padding-top: 30px;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	width: 70%;
+
+	
+}
+
+ul {
+
+	line-height: 60px;
+	display: inline;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 30px;
+   
+}
+
+li {
+    display: inline;
+      margin-top: 30px;
+}
+
+li a {
+    color: #00e6e6;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    color: #b84dff;
+}
+
+
+@media only screen and (max-width: 960px) {
+
+ul {
+
+	line-height: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+   
+}
+
+li a {
+    display: block;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+}
+
+
+/*home*/
+h1 {
+	font-size: 80px;
+	font-family: 'Calligraffitti', cursive;
+	color: #00ffff;
+	line-height: 40px;
+	text-align: center;
+}
+
+h2 {
+	color: #ffffff;
+	font-size: 48px;
+	font-family: 'Calligraffitti', cursive;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+.hero {
+
+	background-image: url(./immagini/home.jpg);
+	background-position: center top;
+	background-size: cover;
+	padding: 250px 0;
+	margin: 30px;
+	text-shadow: 0 2px #000000;
+	
+}
+
+@media only screen and (max-width: 960px) {
+
+	.hero {
+
+    	background-position: center top;
+		background-size: cover;
+		text-align: center;
+	}
+
+	h1 {
+
+		font-size: 50px;	
+	}
+
+	h2 {
+
+		font-size: 30px;	
+	}
+}
+
+/*pagine sito*/
+
+.container {
+
+	overflow: hidden;
+	margin-bottom: 50px;
+	margin-left: 3%;
+	margin-right: 3%;
+	
+}
+
+.gallery {
+
+	border: 1px dotted #cc66ff;
+	width: 300px;
+	height: 500px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+}
+
+.image {
+
+	width: 70%;
+	height: 40%;
+	margin-top: 20px;
+}
+
+h4{
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	color: #666699;
+	text-align: left;
+	margin-left: 15px;
+	line-height: 20px;
+}
+
+
+hr {
+	width: 50%;
+}
+
+.descrizione {
+	
+	font-family: 'Poiret One', cursive;
+	font-size: 14px;
+	color: #666699;
+	text-align: left;
+	margin-left: 15px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+
+
+}
+
+@media only screen and (max-width: 960px) {
+    
+    .gallery {
+    	
+    	width: 80%;
+    	height: auto;
+    	margin-top: 50px;
+	    margin-left: 10%;
+	    margin-bottom: 30px;	
+    }
+
+ }
+
+
+/*pagina contatti*/
+
+.indirizzo {
+
+	width: 400px;
+	height: 200px; 
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.image-cont {
+
+	float: left;
+	width: 100px;
+	height:100px;
+	margin-top: 100px;
+	margin-left: 500px;
+}
+
+.cont-a {
+
+	text-align: left;
+	font-family: 'Calligraffitti', cursive;
+	font-size: 24px;
+	color: #00a3cc;
+	margin-left:50px;
+}
+
+.cont-b {
+
+	text-align: left;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	color: #b84dff;
+	margin-left:50px;
+	
+}
+
+.orari {
+
+	
+	width: 400px;
+	height: 300px; 
+	float: left;
+	margin-top: 50px;
+	margin-left: 650px;
+	margin-bottom: 100px;
+}
+
+.hour {
+
+	text-align: left;
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	color: #b84dff;
+	margin-left:50px;
+}
+
+
+@media only screen and (max-width: 960px) {
+
+.image-cont{
+	
+	width: 30%;
+	height: auto;
+	margin-left: 35%;
+	margin-top: 70px;
+
+}
+
+.indirizzo {
+
+	width: 70%;
+	height: auto;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+
+.orari {
+	
+	width: 70%;
+	height: auto;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+
+}
+
+/*footer*/
+
+.footer {
+
+	width: 100%;
+	margin-bottom: 50px;	
+
+}
+
+.footer a {
+
+	text-decoration: none;
+	color: #9900ff;
+	font-size: 16px;
+	
+}
+
+

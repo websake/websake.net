@@ -1,0 +1,9 @@
+
+## Prevent directory listings
+Options All -Indexes
+
+## Rule for Error Page - 404
+ErrorDocument 404 /en/404.html
+
+## Default index file
+DirectoryIndex index.html

@@ -1,0 +1,279 @@
+/*
+* LightSeaGreen
+*
+* A stylish html-css theme
+*
+*
+* @package    LightSeaGreen
+* @author     Silvia Valbonetti <silvia.valbonetti@gmail.com>
+* @copyright  2015 WebSake
+* @license    http://www.opensource.org/licenses/mit-license.html  MIT License
+* @version    Release: 1.0.1
+* @agency		 WebSake
+* @link       https://websake.net
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Pompiere);
+@import url(https://fonts.googleapis.com/css?family=Gruppo);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700,300);
+
+
+
+body {
+	background-color: #ffffff;
+}
+
+/*intestazione*/
+
+.nome {
+
+    background-color: #ffffff;
+
+
+}
+
+.home-h1 {
+
+	text-align: left;
+	font-family: 'Unica One', cursive;
+    color: #476b6b;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.think {
+
+	text-align: left;
+    font-family: 'Unica One', cursive;
+    color: #476b6b;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+
+}
+
+/*navbar*/
+
+.navbar{
+
+	background-color: #009999;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin-bottom: 0;
+
+
+}
+
+.nav.navbar-nav li a {
+
+	color: #ffffff;
+	font-family: 'Gruppo', cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.nav.navbar-nav li a:hover {
+
+	color: #13212e;
+}
+
+/*contenuto home page*/
+
+.img-home {
+
+	width: 100%;
+	height: auto;
+}
+
+
+.pt {
+
+	padding-top: 100px;
+	padding-bottom: 200px;
+
+}
+
+.mt {
+	padding-bottom: 80px;
+
+}
+
+
+.icon-home {
+
+	width: 150px;
+	height: 150px;
+	margin-left: 30%;
+
+}
+
+.home-h3 {
+
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	color: #009999;
+	font-size: 28px;
+	padding-top: 20px;
+}
+
+.home-p {
+
+	text-align: left;
+	font-family:  'Comfortaa', cursive;
+	color: #336699;
+	font-size: 14px;
+	padding-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/*footer*/
+
+#footer {
+
+	background-color:  #13212e ;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%;
+}
+
+#footer h5 {
+
+	color: #01d6ca;
+	padding-bottom: 0px;
+	font-family:  'Comfortaa', cursive;
+	font-size: 18px;
+}
+
+#footer p {
+
+	color: #cccfd2;
+	font-family:  'Comfortaa', cursive;
+	font-size: 16px;
+}
+
+#footer h4 {
+
+	color: #01d6ca;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-family:  'Comfortaa', cursive;
+}
+
+/*pagina about*/
+
+.ch {
+
+	margin-bottom: 150px;
+}
+
+.ab {
+
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.about-h3 {
+
+	font-family: 'Comfortaa', cursive;
+	color: #009999;
+	font-size: 28px;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.icon-about {
+
+	width: 150px;
+	height: 150px;
+	margin-top:35%;
+
+}
+
+/*progetti e servizi*/
+
+.sr {
+
+	margin-bottom: 100px;
+}
+.icon-serv {
+
+	width: 150px;
+	height: 150px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.serv-p {
+
+	text-align: left;
+	font-family:  'Comfortaa', cursive;
+	color: #336699;
+	font-size: 14px;
+	padding-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+
+}
+/*contatti e location*/
+
+.cont-p {
+
+    text-align: left;
+	font-family:  'Comfortaa', cursive;
+	color: #336699;
+	font-size: 16px;
+	padding-top: 10px;
+	margin-left: 20px;
+
+}
+
+.indir {
+
+	margin-bottom: 150px;
+}
+
+.icon-location {
+
+	width: 180px;
+	height: 150px;
+	margin-top:35%;
+
+}
+
+/*portfolio*/
+
+.icon-port {
+
+	max-height:150px;
+  max-width:100%;
+
+}
+
+.port {
+
+	margin-top: 50px;
+	margin-bottom: 150px;
+
+}
+
+.port-h3 {
+
+    font-family: 'Comfortaa', cursive;
+	color: #009999;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 10px;
+
+}

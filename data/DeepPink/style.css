@@ -1,0 +1,422 @@
+ /*
+ * DeepPink
+ *
+ * A stylish html-css theme
+ *
+ *
+ * @package    DeepPink
+ * @author     Silvia Valbonetti <silvia.valbonetti@gmail.com>
+ * @copyright  2015 WebSake
+ * @license    http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @version    Release: 1.0.1
+ * @agency		 WebSake
+ * @link       https://websake.net
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+@import url(https://fonts.googleapis.com/css?family=Arizonia);
+@import url(https://fonts.googleapis.com/css?family=Forum);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+
+h1{
+	font-family: 'Arizonia', cursive;
+	font-size: 38px;
+	color: 	#ff00bf;
+	margin-top: 50px;
+	text-align:center;
+	line-height: 18px;
+
+}
+
+h2{
+	font-family: 'Forum', cursive;
+	font-size: 22px;
+	color: 	#ccccb3;
+	text-align: center;
+	line-height: 16px;
+	margin-bottom: 30px;
+
+}
+
+
+/* menu */
+nav {
+	text-align: center;
+	margin: 0 auto 0 auto;
+	width: 70%;
+
+
+}
+
+ul {
+
+	line-height: 70px;
+	display: inline;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 30px;
+
+}
+
+li {
+    display: inline;
+      margin-top: 30px;
+}
+
+li a {
+    color: #a3a375;
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+
+}
+
+
+li a:hover {
+    color: #ff66b3;
+}
+
+/* intestazione pagina */
+h3 {
+	font-family: 'Forum', cursive;
+	font-size: 20px;
+	color: 	 #ff00bf;
+	text-align: center;
+	margin-top: 30px;
+
+
+
+}
+@media only screen and (max-width: 960px) {
+
+ul {
+
+	line-height: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+
+}
+
+li a {
+    display: block;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+
+
+}
+
+
+/* contenuto pagina */
+
+.container {
+
+	width: 100%;
+	overflow: hidden;
+}
+
+
+.container-t {
+
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+
+/* immagine pagina home */
+.img-home-container {
+	text-align: center;
+	margin: 0 auto 0 auto;
+
+}
+
+.img-home {
+
+	width: 80%;
+	height: auto;
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+/* immagine e testo pagina chi siamo */
+
+
+.about-testo{
+
+
+	float: left;
+
+	width: 500px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 80px;
+	margin-bottom: 50px;
+	font-family: 'Forum', cursive;
+	font-size: 18px;
+	color: #476b6b;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.image-chisiamo {
+
+    float: left;
+	width: 350px;
+	height: 250px;
+	margin-top: 100px;
+	margin-left: 250px;
+	margin-bottom: 50px;
+
+}
+
+@media only screen and (max-width: 960px) {
+
+    .image-chisiamo {
+
+    	width: 70%;
+    	height: auto;
+    	margin-top: 20px;
+	    margin-left: 60px;
+	    margin-bottom: 10px;
+    }
+
+    .about-testo {
+    	width: 70%;
+    	height: auto;
+    	margin-top: 20px;
+		margin-left: 60px;
+    }
+}
+
+/* immagine e testo pagina trattamenti e prodotti */
+
+.image-small-a {
+
+	float: left;
+	width: 400px;
+	height: 250px;
+	margin-top: 60px;
+	margin-left: 150px;
+}
+
+.image-small-b {
+
+	float: right;
+	width: 400px;
+	height: 250px;
+	margin-top: 60px;
+	margin-right: 150px;
+}
+
+.testo-medium-a {
+
+	float: left;
+	width: 600px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	font-family: 'Forum', cursive;
+	font-size: 18px;
+	color: #476b6b;
+	line-height: 1.5;
+	text-align: left;
+}
+
+
+.testo-medium-b {
+
+	float: right;
+	width: 600px;
+	height: 300px;
+	margin-top: 50px;
+	margin-right: 80px;
+	margin-bottom: 50px;
+	font-family: 'Forum', cursive;
+	font-size: 18px;
+	color: #476b6b;
+	line-height: 1.5;
+	text-align: left;
+}
+
+
+@media only screen and (max-width: 960px) {
+
+    .image-small-a  {
+
+    	width: 70%;
+    	height: auto;
+    	margin-top: 20px;
+	    margin-left: 60px;
+	    margin-bottom: 10px;
+    }
+
+    .testo-medium-a {
+    	width: 70%;
+    	height: auto;
+    	margin-top: 20px;
+    	margin-left: 70px;
+    }
+
+     .image-small-b  {
+
+    	width: 70%;
+    	height: auto;
+    	margin-top: 20px;
+	    margin-right: 60px;
+	    margin-bottom: 10px;
+    }
+
+    .testo-medium-b {
+
+    	width: 70%;
+    	height: auto;
+    	margin-top: 20px;
+    	margin-right: 50px;
+    }
+}
+/* pagina contatti */
+
+.image-contatti {
+	float: left;
+	width: 100px;
+	height: auto;
+	margin-left: 570px;
+	margin-top: 70px;
+	margin-right: 50px;
+
+}
+
+.container-contatti {
+	float: left;
+	width: 500px;
+	height: auto;
+	margin: 0 auto 0 auto;
+	margin-top: 50px;
+	font-family: 'Forum', cursive;
+	font-size: 18px;
+	color: #476b6b;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.container-orari {
+
+	float: left;
+	width: 500px;
+	height: auto;
+
+	margin-top: 50px;
+	margin-left: 720px;
+	font-family: 'Forum', cursive;
+	font-size: 18px;
+	color: #476b6b;
+	line-height: 1.5;
+	text-align: left;
+}
+
+@media only screen and (max-width: 960px) {
+
+	.image-contatti {
+
+	width: 30%;
+	height: auto;
+	margin-left: 120px;
+	margin-top: 30px;
+
+}
+
+.container-contatti {
+
+	width: 70%;
+	height: auto;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.container-orari {
+
+	width: 70%;
+	height: auto;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+	}
+
+/* footer */
+
+.footer {
+
+	background: #c2c2a3;
+	margin-top: 50px;
+    width:100%;
+	font-family: 'Forum', cursive;
+	font-size: 18px;
+	overflow: hidden;
+
+}
+
+
+
+.foot-cont {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 400px;
+	height: 200px;
+	text-align: left;
+}
+
+
+.foot-orari {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 400px;
+	height: 200px;
+	text-align: left;
+
+}
+
+.copyright {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 18px;
+	color: #00b3b3;
+}
+
+.foot-p {
+	color: #476b6b;
+}
+
+h4 {
+	color: 	#ff00bf;
+}
+
+.copyright a {
+	text-decoration: none;
+	color: #9900ff;
+}
